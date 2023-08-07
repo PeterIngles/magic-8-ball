@@ -6,4 +6,7 @@
 
 body{
     background-color: black;
+    background-image: url('Magic_eight_ball.png');
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    background-position: center center; /* Center the image horizontally and vertically */
 }
