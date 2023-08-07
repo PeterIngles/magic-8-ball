@@ -3,9 +3,9 @@ const pg = require("pg");
 
 // Represents network connect to DB
 const pool = new pg.Pool({
-  host: "localhost",
+  host: "Localhost",
   port: 5432,
-  database: "database_name", // *** Don't forget to change! ***
+  database: "fortunes", // *** Don't forget to change! ***
 });
 
 module.exports = pool;
